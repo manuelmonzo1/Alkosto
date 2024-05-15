@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Inicio de Sesión" skipped="0" tests="1" time="1.15" timestamp="2024-05-14 10:21:38"><testcase name="Iniciar sesión en la página de Alkosto"><failure message="The page object class com.alkosto.pageObject.HomePageObject could not be instantiated:&#10;Failed to instantiate page (java.lang.ClassCastException: class org.openqa.selenium.By$ByXPath cannot be cast to class net.serenitybdd.core.annotations.findby.By (org.openqa.selenium.By$ByXPath and net.serenitybdd.core.annotations.findby.By are in unnamed module of loader 'app'))" type="net.thucydides.core.pages.WrongPageError">The page object class com.alkosto.pageObject.HomePageObject could not be instantiated:
+Failed to instantiate page (java.lang.ClassCastException: class org.openqa.selenium.By$ByXPath cannot be cast to class net.serenitybdd.core.annotations.findby.By (org.openqa.selenium.By$ByXPath and net.serenitybdd.core.annotations.findby.By are in unnamed module of loader 'app'))</failure><system-err>The page object class com.alkosto.pageObject.HomePageObject could not be instantiated:
+Failed to instantiate page (java.lang.ClassCastException: class org.openqa.selenium.By$ByXPath cannot be cast to class net.serenitybdd.core.annotations.findby.By (org.openqa.selenium.By$ByXPath and net.serenitybdd.core.annotations.findby.By are in unnamed module of loader 'app'))
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:330)
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:51)
+</system-err></testcase></testsuite>
