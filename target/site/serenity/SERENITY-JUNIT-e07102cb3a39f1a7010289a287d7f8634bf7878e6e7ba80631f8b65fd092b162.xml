@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Validar la selección de TV en la página de Alkosto" skipped="0" tests="1" time="17.32" timestamp="2024-05-18 01:01:54"><testcase name="Compra de TV"><error type="java.lang.StackOverflowError"/><system-err>null
+org.slf4j.simple.SimpleLogger.writeThrowable(SimpleLogger.java:270)
+org.slf4j.simple.SimpleLogger.write(SimpleLogger.java:262)
+org.slf4j.simple.SimpleLogger.innerHandleNormalizedLoggingCall(SimpleLogger.java:439)
+org.slf4j.simple.SimpleLogger.handleNormalizedLoggingCall(SimpleLogger.java:377)
+org.slf4j.helpers.AbstractLogger.handle2ArgsCall(AbstractLogger.java:391)
+org.slf4j.helpers.AbstractLogger.warn(AbstractLogger.java:275)
+</system-err></testcase></testsuite>
