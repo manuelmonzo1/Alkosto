@@ -46,20 +46,20 @@ public class inicioSesionStepDefinitions {
 
     @Given("que el usuario accede al sitio web de Alkosto con sus credenciales")
     public void queElUsuarioAccedeAlSitioWebDeAlkostoConSusCredenciales() {
-//        homeSteps.openUrl();
-//        homeSteps.inicio();
-//        homeSteps.clickIniciar();
+        homeSteps.openUrl();
+        homeSteps.inicio();
+        homeSteps.clickIniciar();
 
     }
     @When("ingresa su correo electrónico <correo>")
     public void ingresaSuCorreoElectrónicoCorreo() {
-//    emailVerificationSteps.digitarCorreo();
-//    emailVerificationSteps.clickContinuar();
+    emailVerificationSteps.digitarCorreo();
+    emailVerificationSteps.clickContinuar();
 
     }
     @Then("se le mostrará en pantalla el mensaje ¡Listo, encontramos tu cuenta!")
     public void seLeMostraráEnPantallaElMensajeListoEncontramosTuCuenta() {
-//        optionsSteps.optionsms();
+        optionsSteps.optionsms();
     }
 
 }

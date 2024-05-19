@@ -1,9 +1,7 @@
 package com.alkosto.stepDefinitions;
 
 import com.alkosto.Utils.Scroll;
-import com.alkosto.steps.OptionsTvSteps;
-import com.alkosto.steps.SmarSteps;
-import com.alkosto.steps.TvTclSteps;
+import com.alkosto.steps.*;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -45,6 +43,11 @@ public class tvStepDefinitions {
     @Steps
     private TvTclSteps tvTclSteps;
 
+    @Steps
+    private CartSteps cartSteps;
+    @Steps
+    private CheckoutSteps checkoutSteps;
+
     @Given("que el usuario quiere comprar un televisor")
     public void queElUsuarioQuiereComprarUnTelevisor() {
         optionsTvSteps.openUrl();
@@ -72,7 +75,13 @@ public class tvStepDefinitions {
         tvTclSteps.cantidad();
 
     }
-
-    //// falata crear el metodo de compra y agregar un paso mas a la fe
+    @Then("Ir a pagar y seleccionar una opción para iniciar sesión")
+    public void irAPagarYSeleccionarUnaOpciónParaIniciarSesión() {
+        cartSteps.pagar();
+        checkoutSteps.correo();
+        checkoutSteps.digiteCorreo();
+        checkoutSteps.btnContinuar();
+        //Ajuste Final
+    }
 
 }
