@@ -23,4 +23,7 @@ public class CheckoutPageObject extends PageObject {
     public By getBtnContinuar() {
         return btnContinuar;
     }
+
+
+
 }

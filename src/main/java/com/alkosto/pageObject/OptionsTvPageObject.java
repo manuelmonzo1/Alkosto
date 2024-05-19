@@ -21,5 +21,11 @@ public class OptionsTvPageObject extends PageObject {
         return linkPulgadas;
     }
 
+    private By txtiniciarSesion = By.xpath("//div[@class='login-section main-wrapper paddingLogin']/h1");
+
+    public By getTxtiniciarSesion() {
+        return txtiniciarSesion;
+    }
+
 
 }

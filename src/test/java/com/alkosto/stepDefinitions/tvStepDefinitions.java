@@ -81,7 +81,8 @@ public class tvStepDefinitions {
         checkoutSteps.correo();
         checkoutSteps.digiteCorreo();
         checkoutSteps.btnContinuar();
-        //Ajuste Final
+        optionsTvSteps.iniciarSesion();
+        //Ajuste Final..
     }
 
 }
