@@ -54,7 +54,7 @@ public class tvStepDefinitions {
 
     @When("ingresa a la página principal e inspecciona los productos de la sección TV")
     public void ingresaALaPáginaPrincipalEInspeccionaLosProductosDeLaSecciónTV() {
-        optionsTvSteps.scrollBy();
+        optionsTvSteps.scrollBy(0,0);
 
     }
 
@@ -67,8 +67,12 @@ public class tvStepDefinitions {
 
     @Then("debo verificar que este elemento se agregue al carrito de compra")
     public void deboVerificarQueEsteElementoSeAgregueAlCarritoDeCompra() {
-
+        tvTclSteps.seleccionarCarrito();
+        tvTclSteps.carritoPagar();
+        tvTclSteps.cantidad();
 
     }
+
+    //// falata crear el metodo de compra y agregar un paso mas a la fe
 
 }

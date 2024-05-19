@@ -6,7 +6,6 @@ import com.alkosto.pageObject.OptionsTvPageObject;
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.Step;
 import org.fluentlenium.core.annotation.Page;
-import org.openqa.selenium.JavascriptExecutor;
 
 public class OptionsTvSteps extends PageObject {
 
@@ -36,8 +35,8 @@ public class OptionsTvSteps extends PageObject {
     }
 
     @Step("Scroll")
-    public void scrollBy(){
-        scrollBy.scrollBy();
+    public void scrollBy(int x, int y){
+        scrollBy.scrollBy(0,1300);
     }
 
 }

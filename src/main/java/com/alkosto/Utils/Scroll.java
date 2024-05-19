@@ -6,8 +6,11 @@ import org.openqa.selenium.WebDriver;
 
 public class Scroll extends PageObject {
 
-    public void scrollBy() {
+    ///Ajuste
+
+    public void scrollBy(int x, int y) {
         JavascriptExecutor js = (JavascriptExecutor) getDriver();
-        js.executeScript("window.scrollBy(0,1300)");
+        js.executeScript("window.scrollBy(arguments[0], arguments[1])", x, y);
     }
+
 }
